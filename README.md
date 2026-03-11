@@ -285,42 +285,6 @@ DataLoader handles:
 
 ---
 
-# 📦 Project Structure
-
-```
-fake-news-transformer/
-│
-├── data/
-│   ├── train.csv
-│   └── test.csv
-│
-├── models/
-│   ├── transformer.py
-│   └── attention.py
-│
-├── utils/
-│   ├── preprocessing.py
-│   └── dataset.py
-│
-├── train.py
-├── app.py
-├── requirements.txt
-└── README.md
-```
-
----
-
-# 🧮 Model Training
-
-Run training:
-
-```
-python train.py
-```
-
-The model learns contextual relationships between words in news articles to distinguish misinformation.
-
----
 
 # 📤 Model Saving
 
